@@ -1,0 +1,7 @@
+/classes
+.gradle
+.idea
+build
+*.iml
+.asscache
+node_modules

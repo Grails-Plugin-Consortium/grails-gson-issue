@@ -1,0 +1,10 @@
+import org.grails.demo.Person
+
+model {
+	Person person
+}
+
+json {
+    name person.name
+    addresses tmpl.address(person?.addresses ?: [])
+}

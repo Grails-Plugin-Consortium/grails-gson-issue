@@ -1,0 +1,7 @@
+import org.grails.demo.Person
+
+model {
+	Person person
+}
+
+json tmpl.person(person)

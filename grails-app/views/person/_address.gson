@@ -1,0 +1,9 @@
+import org.grails.demo.Address
+
+model {
+	Address address
+}
+
+json {
+    city address.city
+}
