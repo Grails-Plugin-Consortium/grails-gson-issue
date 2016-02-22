@@ -1,0 +1,1 @@
+# grails-gson-issue
